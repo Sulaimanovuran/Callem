@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}">
+    <title>Document</title>
+   
+</head>
+<body>
+    <!-- {% block content %} -->
+<div class="header">
+            <div class="container">
+            <div class="header-line">
+                <div class="header-logo">
+                    <img src="{{ url_for('static', filename='images/logo.png')}}" alt="" width="200">
+                </div>
+
+                <div class="nav">
+                    <a class="nav-item" href="#">Главная</a>
+                    <a class="nav-item" href="#">О нас</a>
+                    <a class="nav-item" href="#">Портфолио</a>
+                    <a class="nav-item" href="#">Оставить заявку</a>
+                </div>
+                <div class="pero">
+                    <a href="#">
+                        <img class="pero-img" src="{{ url_for('static', filename='images/icon.png')}}" alt="" width="17">
+                    </a>
+                </div>
+                <div class="phone">
+                    <div class="phone-holder">
+                        <div class="phone-img">
+                            <img src="{{ url_for('static', filename='images/icon-phone.png')}}" alt="" width="23">
+                        </div>
+                        <div class="number"><a class="num" href="#">+996 707132765</a></div>
+                    </div>
+                    <div class="phone-text">
+                        Свяжитесь со мной <br> пж
+                    </div>
+                </div>
+                <div class="btn">
+                    <a class="button" href="#">Заказать дизайн</a>
+                </div>
+            </div>
+            <div class="header-down">
+                <div class="header-title">
+                    Hello Mother Fucker
+                    <div class="header-subtitle">
+                        This's Callem
+                    </div>
+                    <div class="headre-suptitle">
+                        YOUR MOTHER'S HOUSE
+                    </div>
+                    <div class="header-btn">
+                        <a class="header-button" href="#">
+                            VIEW PRICE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<div class="cards">
+    <div class="container">
+        <div class="cards-holder">
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ url_for( 'static', filename='images/card-logo.jpg' ) }}" alt="" width="126">
+                </div>  
+                <div class="card-title">
+                   Дизайн для  <span>компаний</span> 
+                </div>
+                <div class="card-desc">
+                    Мы делаем различные логотипы
+                    и корпоративный дизайн
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ url_for( 'static', filename='images/card-image.jpg' ) }}" alt="" width="100">
+                </div>  
+                <div class="card-title">
+                    Дизайн для  <span> мероприятий</span> 
+                </div>
+                <div class="card-desc">
+                    Индивидуальный стиль для каждого клиента
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="{{ url_for( 'static', filename='images/card-image2.jpg' ) }}" alt="" width="126">
+                </div>  
+                <div class="card-title">
+                    Сайты и их  <span>дизайн</span> 
+                </div>
+                <div class="card-desc">
+                    Сайт вашей компании, интернет магазины, маркетплейсы, CRM-системы и многое другое
+                </div>
+            </div>
+    </div>
+    </div>
+</div>
+</div>
+       
+<div class="about">
+    <div class="container">
+        <div class="about-holder">
+            <div class="about-info">
+                <div class="about-title">
+                    Callem  <span>Сила</span> 
+
+                </div>
+                <div class="about-desc">
+                    Добро пожаловать в нашу дизайнерскую компанию! Мы предлагаем инновационные дизайн-решения и услуги по разработке веб-сайтов. Мы создаем уникальный дизайн, который привлечет внимание более чем 10 000 потенциальных клиентов, увеличивая продажи наших клиентов на 20% и более. Обращайтесь к нам, и мы поможем вам достичь успеха на рынке!
+                </div>
+                <div class="about-number">
+                    <div class="number-item">
+                        93 <span>Логотипы</span>
+                    </div>
+                    <div class="number-item">
+                        206 <span>Дизайн</span>
+                    </div>
+                    <div class="number-item">
+                        71 <span> Веб-дизайн</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-images">
+                <img class="images1" src="{{ url_for('static', filename='images/images_cocha1.avif')}}" alt="" width="150">
+                <img class="images2" src="{{ url_for('static', filename='images/images-cocha2.jpg')}}" alt="" width="170">
+                <img class="images3" src="{{ url_for('static', filename='images/images-cocha3.jpg')}}" alt="" width="130">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="{{ url_for('static', filename='js/scrip.js') }}"></script>
+    <!-- {% endblock content %} -->
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+
+}
+
+.header {
+    background-image: url(../images/fon.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #eb0b0b;
+}
+
+.pero {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.pero-img {
+    position: absolute;
+    top: 20px;
+    right: 7px;
+    left: 25;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #eb0b0b;
+}
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #eb0b0b;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition:  background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #820000;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: #b00707;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+
+    margin-top: 80px;
+    margin-bottom: 12px;
+
+}
+
+.headre-suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.headre-suptitle::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 60px;
+}
+
+.headre-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 331px;
+}
+
+.header-button {
+    background-color: #eb0b0b;
+    padding: 14px 28px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:  'Open Sans', sans-serif;
+    text-decoration: none;
+
+    transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+    background-color: #820000;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 349px;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Tinos', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card-title span {
+    color: #a10909;
+    margin-left: 5px;
+}
+
+.card-desc {
+    text-align: center;
+   }
+   
+.about {
+    padding-top: 166px;
+}
+
+.about-title {
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+
+
+}
+
+.about-title span {
+    color: #a10909;
+}
+
+
+.about-desc {
+    color: #0f0e0ec5;
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+
+.about-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color:#a10909;
+    margin-top: 10px;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    
+}
+
+.about_images {
+    position: relative;
+}
+
+
+.about-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.images2 {
+    position: absolute;
+    z-index: 500;
+    top: 1100px;
+    left: 870px;
+    box-shadow: 10px 10px 40px 20px #00000047;
+}
+
+
+.images3 {
+    position: absolute;
+    z-index: 300;
+    top: 1067px;
+    left: 1067px;
+    box-shadow: 10px 10px 40px 20px #00000047;
+}
+.images1 {
+    position: absolute;
+    z-index: 400;
+    top: 968px;
+    left: 967px;
+    box-shadow: 10px 10px 40px 20px #00000047;
+}
